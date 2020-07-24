@@ -11,7 +11,8 @@ exports.getTransactions = async (req, res,next) => {
             success: true,
             count: transactions.length,
             data: transactions
-        })
+        });
+
     } catch (error) {
         return res.status(500).json({
             success: false,
@@ -32,7 +33,8 @@ exports.addTransactions = async (req, res,next) => {
         return res.status(201).json({
         success: true,
         data: transaction
-        })
+        });
+
     } catch (error) {
         return res.status(400).json({
             success: false,
@@ -61,7 +63,7 @@ exports.deleteTransactions = async (req, res,next) => {
          return res.status(200).json({
             success: false,
             data: {}
-         })
+         });
 
      } catch (error) {
         return res.status(500).json({
