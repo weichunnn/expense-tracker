@@ -1,4 +1,4 @@
-
+const cors = require('cors');
 const path = require('path');
 const express = require('express');
 const colors = require('colors');
@@ -12,6 +12,7 @@ const transactions = require('./routes/transactions');
 
 const app = express();
 
+app.use(cors());
 app.use(express.json());
 
 if (process.env.NODE_ENV === 'development') {
