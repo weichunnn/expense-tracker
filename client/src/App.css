@@ -9,7 +9,7 @@
 }
 
 body {
-  background-color: #f7f7f7;
+  background-color: #f8dbd5;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -22,6 +22,8 @@ body {
 .container {
   margin: 30px auto;
   width: 350px;
+  padding: 20px;
+
 }
 
 h1 {
