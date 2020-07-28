@@ -2,7 +2,7 @@
 
 The app was built to enable users to log their income and expenses. Users can view their balance, log their transactions, and view total income and expenses. The app allows dynamic updates to the browser. The app implements ReactJS as the frontend, used React Hooks and Context API to manage the Global State, and implements ExpressJS and MongoDb for the backend.
 
-Link to app: [https://afternoon-hamlet-18985.herokuapp.com/]()
+Link to app: [Expense-Tracker](https://afternoon-hamlet-18985.herokuapp.com/)
 
 ## Technologies Used
 * ReactJS
